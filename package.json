@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "tsc index.ts && node index.js"
+    "start": " ts-node-dev index.ts"
   },
   "keywords": [],
   "author": "",

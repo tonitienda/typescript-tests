@@ -1,4 +1,4 @@
-import Ajv   from 'ajv'
+import Ajv from 'ajv'
 const ajv = new Ajv()
 
 export default function Deserializer<T>(schema: any) {
